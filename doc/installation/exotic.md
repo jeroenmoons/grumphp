@@ -16,7 +16,7 @@ and add next config into your application's `composer.json`:
 ```
 
 You can also change the configuration after installation.
-The only downfall is that you will have to initialize the git hook manually:
+The only downside is that you will have to initialize the git hook manually:
 
 ```sh
 php ./vendor/bin/grumphp git:init --config=path/to/grumphp.yml
